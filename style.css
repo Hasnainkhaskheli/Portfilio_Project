@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --primary-color: #2EEBAA;
+    --secondary-color: #999999;
+    --tertiary-color: #FFFFFF;
+}
+
+.container {
+    margin: 80px 80px;
+    display: flex;
+}
+
+.social-icons {
+    margin-left: 80px;
+}
+
+.social-icons .icons {
+    padding: 10px;
+    color: var(--tertiary-color) !important;
+    font-size: 24px;
+}
+
+.profile-btn button {
+    padding: 10px 40px;
+    margin-left: 85px;
+    border-radius: 11px;
+    outline: none;
+    color: var(--tertiary-color);
+    border-color: var(--secondary-color);
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.profile-detail {
+    margin-left: 40px;
+}
+
+.PD-section h1 {
+    color: var(--tertiary-color);
+    margin-top: 40px;
+    font-size: 64px;
+
+}
+
+.PD-section h3 {
+    color: var(--primary-color);
+
+}
+
+.PD-section p {
+    color: var(--secondary-color);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.counting-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+}
+
+.projects h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.projects span {
+    color: var(--secondary-color);
+}
+
+/* About Section */
+
+.PD-section h4 {
+    color: var(--tertiary-color);
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+/* Career-Section */
+
+.Career-Section {
+    margin-top: 100px;
+}
+
+.Career-Section h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.Career-Section h4 {
+    color: var(--tertiary-color);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Career-Section h5 {
+    color: #f7e9e9;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.Career-Section span {
+    color: var(--secondary-color);
+    font-size: 16px;
+
+}
+
+/* Service-section */
+
+.Service-section {
+    margin-top: 100px;
+}
+
+.Service-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.Service-section h2 {
+    color: var(--tertiary-color);
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.service-section-items {
+    display: flex;
+    margin-top: 40px;
+}
+
+.service-section-items .intem {
+    border: 1px solid white;
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service-section-items .intem:hover {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.service-section-items .intem-1 {
+    border: 1px solid var(--primary-color);
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service-section-items .intem-1:hover {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+
+}
+
+.service-section-items .intem-1 span {
+    color: var(--tertiary-color);
+    font-size: 24px;
+
+}
+
+.service-section-items .intem-1 p {
+    color: var(--secondary-color);
+    font-size: 16px;
+
+}
+
+.service-section-items .intem span {
+    color: var(--tertiary-color);
+    font-size: 24px;
+
+}
+
+.service-section-items .intem p {
+    color: var(--secondary-color);
+    font-size: 16px;
+
+}
+
+/* Skill-Section */
+
+.skill-section {
+    margin-top: 130px;
+}
+
+.skill-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.skill-section h2 {
+    color: var(--tertiary-color);
+    margin-bottom: 20px;
+    font-size: 35px;
+
+}
+
+.softwares {
+    margin-top: 60px;
+}
+
+.softwares img {
+    color: var(--secondary-color) !important;
+    margin-right: 30px;
+}
+
+/* Portfilio-section */
+
+.Portfilio-section {
+    margin-top: 150px;
+}
+
+.Portfilio-section h3 {
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.Portfilio-section h2 {
+    color: var(--tertiary-color);
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.iphone {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* Card Section */
+
+.card-section {
+    margin-top: 150px;
+}
+
+.card-section h3 {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.card-section h2 {
+    color: var(--tertiary-color);
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.clint-perageaf {
+    display: flex;
+    padding: 20px;
+
+}
+
+.clint-perageaf h5 {
+    color: var(--tertiary-color);
+    font-size: 24px;
+    margin-left: 30px;
+
+
+}
+
+.clint-perageaf span {
+    color: var(--tertiary-color);
+    font-size: 20px;
+
+}
+
+.clint-perageaf img {
+    margin-right: 10px;
+}
+
+.clint p {
+    color: var(--tertiary-color);
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.clients-no-1 {
+    color: var(--tertiary-color);
+}
+
+.clint {
+    border: 1px solid var(--tertiary-color);
+    padding: 40px;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+
+/* Brand Section */
+
+.Brands-section {
+    margin-top: 170px;
+}
+
+.Brands-section h3 {
+    color: var(--primary-color);
+    font-size: 24px;
+
+}
+
+.Brands-section h4 {
+    color: var(--tertiary-color);
+    margin-top: 15px;
+    font-size: 40px;
+    margin-bottom: 80px;
+
+}
+
+.Brands-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+/* Contact Section */
+
+.Contact-Section {
+    margin-top: 180px;
+}
+
+.Contact-Section h3 {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Contact-Section h4 {
+    color: var(--tertiary-color);
+    margin-top: 15px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.Contact-form {
+    border: 1px solid;
+}
+
+.Contact-form label {
+    color: var(--tertiary-color);
+    font-size: 16px;
+}
+
+.Contact-form input {
+    width: 600px;
+    height: 60px;
+    margin-bottom: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #444242;
+    color: #f7e9e9;
+    outline: none;
+}
+
+
+.Contact-form input[type="text"] {
+    font-size: 24px !important;
+
+}
+
+.Contact-form input[type="email"] {
+    font-size: 24px !important;
+}
+
+.Contact-form textarea {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #444242;
+    color: #444242;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.Contact-form .message {
+    font-size: 24px !important;
+}
+
+.Contact-form button {
+    width: 300px;
+    height: 60px;
+    color: var(--tertiary-color);
+    font-size: 24px;
+    border: 1px solid var(--tertiary-color);
+    border-radius: 20px;
+    cursor: pointer;
+    animation-name: btn;
+}
+
+.Contact-form button:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    transform: scale(1.1);
+}
