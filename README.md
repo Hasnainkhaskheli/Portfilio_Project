@@ -15,7 +15,7 @@ A responsive web design project focusing on revamping the designer's own portfol
 HTML, CSS, Figma
 
 # About Me:
-I'm Muhammad Hasnainh, a passionate Front End Web Developer with a keen eye for detail and a commitment to crafting engaging and intuitive digital experiences.  I specialize in turning design concepts into responsive and interactive websites that captivate users and elevate brands.
+I'm Muhammad Hasnain, a passionate Front End Web Developer with a keen eye for detail and a commitment to crafting engaging and intuitive digital experiences.  I specialize in turning design concepts into responsive and interactive websites that captivate users and elevate brands.
 Driven by my love for both design and technology, I thrive on the creative challenge of translating ideas into code and bringing them to life on the web. My skill set encompasses proficiency in HTML, CSS,JavaScript, and other modern web technologies, allowing me to create dynamic and visually stunning websites that not only meet but exceed client expectations.
 Outside of coding, you can find me exploring the latest web design trends, attending tech meetups and conferences, or simply enjoying a good cup of coffee while brainstorming my next creative project. I'm passionate about leveraging technology to make a positive impact and look forward to collaborating with like-minded individuals and organizations to bring innovative ideas to fruition.
 
